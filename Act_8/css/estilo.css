@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0px;
+    background-color: rgb(15, 182, 204);
+    color: white;
+}
+
+header {
+    background-color: rgb(240, 12, 221);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    padding: 10px 0px;
+}
+
+section {
+    background-color: rgb(33, 205, 211);
+    padding: 10px;
+}
+
+article,
+fieldset {
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+fieldset {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid rgb(96, 196, 221);
+    border-style: dashed;
+}
+
+fieldset input {
+    display: block;
+    margin: 0 auto;
+    height: 30px;
+    font-size: 1.2rem;
+}
+
+button {
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(223, 226, 43);
+    color: rgb(247, 0, 0);
+    cursor: pointer;
+    border-radius: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+legend {
+    font-weight: bold;
+}
+
+article {
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 20px;
+}
+
+article input {
+    margin: 0 auto;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+}
+
+article button {
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(136, 136, 136);
+    padding: 3px 0 3px;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+td {
+    border-bottom: 2px solid rgb(48, 182, 216);
+    padding: 5px;
+    width: 200px;
+}
+
+#titulos {
+    text-align: right;
+}
+
+#totales {
+    text-align: left;
+}
+
+.dosColumnas {
+    width: 400px;
+}
+
+.fondo {
+    background-color: #bfdd13;
+}
+
+.texto {
+    font-size: 1.5rem;
+    color: white;
+}
+
+footer {
+    background-color: rgb(224, 26, 241);
+    height: 100px;
+    text-align: center;
+}
+
+#foot {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
